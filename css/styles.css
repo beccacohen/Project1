@@ -1,0 +1,255 @@
+/*============================
+
+Universal Styling
+
+============================*/
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  text-decoration: none;
+  color: #234058;
+}
+
+.container {
+  color: #234058;
+
+}
+
+main {
+margin: 1% 0%;
+}
+
+h1, h2 {
+  font-family: 'Raleway', sans-serif;
+  padding: 1%;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+p {
+  font-family: 'Oswald', sans-serif;
+  text-transform: capitalize;
+  letter-spacing: .1rem;
+  text-align: center;
+}
+
+li {
+
+}
+
+h3 {
+  font-size: 3rem;
+  font-family: 'Raleway', sans-serif;
+}
+
+/*============================
+
+Nav Styling
+
+============================*/
+
+header {
+  height: 5rem;
+}
+
+header .nav-logo {
+  float: left;
+  padding: 0 2%;
+}
+
+.navbar li {
+  font-family: 'Raleway', sans-serif;
+  display: inline-block;
+}
+
+#navcenter {
+  font-size: 1.6rem;
+  color: #234058;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  word-spacing: 1.6rem;
+  padding-top: 2.5%;
+  text-align: center;
+  padding-right: 15%;
+  float: right;
+}
+
+/*========================================
+
+
+  Welcome Styling
+
+
+===========================================*/
+
+.welcome {
+  background: #f9bba5;
+  padding: 2%;
+}
+
+h1 {
+  font-size: .9rem;
+}
+
+.welcome p {
+  text-align: start;
+  font-size: .6rem;
+  width: 70%;
+  padding: 0 13%;
+  margin: 2.5%;
+  text-transform: none;
+}
+
+
+/*========================================
+
+
+  Education Styling
+
+===========================================*/
+
+
+.education {
+  background: #86a3a9;
+  padding: 4% 0 4% 0;
+  text-align: center;
+}
+
+.education p {
+text-align: left;
+text-transform: none;
+width: 50%;
+display: inline-block;
+}
+
+.woods {
+  padding: 0% 10% 0% 0%;
+  float: right;
+}
+
+.twentytwo {
+  padding: 1% 0% 0% 10%;
+  float: left;
+}
+
+/*========================================
+
+
+  Footer Styling
+
+
+===========================================*/
+footer{
+  padding-top: 2%;
+}
+
+footer p {
+  font-family: 'Raleway', sans-serif;
+  padding-left: 5%;
+  font-size: .9rem;
+}
+
+footer img {
+  float: right;
+  padding-right: 4%;
+}
+
+/*===========================
+
+Responsive Web Coding - 768px (Tablet)
+
+===========================*/
+@media screen and (min-width: 768px) {
+	#container {
+		max-width: 75%;
+  }
+
+  h1 {
+  font-size: 1.9rem;
+  }
+
+.welcome p {
+  font-size: 1rem;
+}
+
+.education {
+  padding-bottom: 15%;
+}
+
+.education p {
+  padding-top: 2%;
+}
+
+h3 {
+  font-size: 2.5rem;
+}
+
+footer img {
+  padding-bottom: 1%;
+}
+
+#navcenter {
+  padding-right: 16%;
+}
+
+/*===========================
+
+  Responsive Web Coding - 1000px(laptop)
+
+===========================*/
+@media screen and (min-width: 1000px) {
+  #container {
+  	max-width: 100%;
+  }
+  .who {
+    padding-top: 4%
+  }
+
+.twentytwo {
+  padding-top: 3%
+}
+
+#navcenter {
+  padding-right: 30%;
+}
+
+
+  /*===========================
+
+    Responsive Web Coding - 1400px(Desktop)
+
+  ===========================*/
+  @media screen and (min-width: 1400px) {
+    #container {
+    	max-width: 100%;
+    }
+
+  #navcenter {
+    padding-right: 30%;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  .welcome p {
+    font-size: 1.5rem;
+  }
+
+  .education p {
+    font-size: 1.2rem;
+  }
+
+  h3 {
+    font-size: 3rem;
+  }
+
+  .twentytwo {
+    padding-left: 11%;
+  }
+
+  .woods {
+    padding-right: 11%;
+  }
