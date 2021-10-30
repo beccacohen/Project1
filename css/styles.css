@@ -75,9 +75,7 @@ header .nav-logo {
 
 /*========================================
 
-
   Welcome Styling
-
 
 ===========================================*/
 
@@ -101,7 +99,6 @@ h1 {
 
 
 /*========================================
-
 
   Education Styling
 
@@ -197,8 +194,25 @@ padding: 10px 0px 0px 0px;
 /*========================================
 
 
-  Footer Styling
+  Portfolio Styling
 
+
+===========================================*/
+.portfolio {
+  background: #f9bba5;
+  padding: 5px 0px;
+  text-align: center;
+}
+
+.example-image-link {
+  display: inline-block;
+  padding: 5px;
+  margin: 5px 10px;
+}
+
+/*========================================
+
+  Footer Styling
 
 ===========================================*/
 footer{
