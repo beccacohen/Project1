@@ -17,9 +17,6 @@ Universal Styling
 
 }
 
-main {
-margin: 1% 0%;
-}
 
 h1, h2 {
   font-family: 'Raleway', sans-serif;
@@ -113,7 +110,7 @@ h1 {
 
 .education {
   background: #86a3a9;
-  padding: 4% 0 4% 0;
+  padding: 2% 0 4% 0;
   text-align: center;
 }
 
@@ -132,6 +129,69 @@ display: inline-block;
 .twentytwo {
   padding: 1% 0% 0% 10%;
   float: left;
+}
+
+/*========================================
+
+  Resume Styling
+
+===========================================*/
+
+.work {
+  font-family: 'Oswald', sans-serif;
+  background: #beb9b3;
+  padding: 2% 0 0 0;
+  text-align: center;
+}
+
+.work h2, .portfolio h2 {
+font-size: 30px;
+padding: 10px 0px 0px 0px;
+}
+
+.underline {
+  border-bottom: 3px solid #234058;
+  width: 500px;
+  padding-bottom: 0px;
+  margin: 0px auto;
+}
+
+.work h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px;
+}
+
+.work p{
+  margin: 0px;
+  font-weight: 100;
+}
+
+.work li {
+  padding: 3px;
+  font-size: 15px;
+  min-width: 437px;
+  text-align: center;
+}
+
+.button {
+  line-height: 40px;
+  padding: 5px 20px;
+  font-size: 15px;
+  text-align: center;
+  color: #fff;
+  border-radius: 5px;
+  background-color: #234058;
+  box-shadow: inset 0px -4px 3px #2f5574;
+  margin: 5px auto;
+}
+
+.button:hover {
+  background-color: #2f5574;
+}
+
+.button:active {
+  box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6), inset 2px 2px 3px rgba(0, 0, 0, .6);
 }
 
 /*========================================
