@@ -11,19 +11,20 @@
   </head>
   <body>
     <header>
-      <div class="navbar">
-        <div class="nav-logo">
-          <img src="images/logo.png" alt="Logo" width="60">
-        </div>
+      <a href="index.html"><img src="images/logo.png" width="75" class="logo" alt="Logo" title="Logo"></a>
+
         <nav>
-          <ul id="navcenter">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="resume.html">Resumé</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
-          </ul>
-        </nav>
-      </div>
+          <!--   Hamburger Icon    -->
+          <label for="hamburger">&#9776;</label>
+          <input type="checkbox" id="hamburger"/>
+
+          <div class="menu-items">
+            <a class="menu-items-name" href="index.html">Home</a>
+            <a class="menu-items-name" href="about.html">About</a>
+            <a class="menu-items-name" href="resume.html">Resumé</a>
+            <a class="menu-items-name" href="portfolio.html">Portfolio</a>
+        </div>
+      </nav>
     </header>
     <main>
       <section id="portfolio">
