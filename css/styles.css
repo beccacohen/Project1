@@ -140,6 +140,22 @@ main {
   display: flex;
   justify-content: center;
 }
+#top {
+  position: fixed;
+  bottom: 2rem;
+  right: .6rem;
+  z-index: 99;
+  background-color: #beb9b3;
+  color: white;
+  cursor: pointer;
+  padding: 1rem;
+  border-radius: .5rem;
+  font-size: 1rem;
+}
+
+#top:hover {
+  background-color: #234058;
+}
 /*========================================
 
   Education Styling
@@ -333,6 +349,11 @@ Responsive Web Coding - 768px by 1024px (Tablet)
   .fotorama {
     width: 65%;
   }
+  #top {
+    bottom: 3rem;
+    right: 2rem;
+    font-size: 1.2rem;
+  }
 }
 
 /*===========================
@@ -394,5 +415,10 @@ Responsive Web Coding - 1366px by 768px (Laptop)
   .pright p {
     padding-left: 10%;
     padding-top: 2%;
+  }
+  #top {
+    bottom: 4rem;
+    right: 2.5rem;
+    font-size: 1.3rem;
   }
 }
