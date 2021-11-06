@@ -21,13 +21,15 @@ h4 {
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 2.7rem;
   padding-top: .5rem;
 }
 
-h2 {
+h2,
+h3 {
   font-size: 2rem;
 }
+
 p, ul li {
   font-family: 'Oswald', sans-serif;
   font-size: 1.25rem;
@@ -131,12 +133,18 @@ main {
   padding-bottom: 2rem;
 }
 
+.fotorama {
+  margin: auto;
+  width: 90%;
+  padding-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+}
 /*========================================
 
   Education Styling
 
 ===========================================*/
-
 
 .education {
   background: #86a3a9;
@@ -149,17 +157,21 @@ text-align: left;
 text-transform: none;
 width: 50%;
 display: inline-block;
+font-size: 1rem;
 }
 
 .woods {
-  padding: 0% 10% 0% 0%;
-  float: right;
+  display: flex;
+  justify-content: center;
+  padding: 1% 0% 1% 0%;
 }
 
 .twentytwo {
-  padding: 1% 0% 0% 10%;
-  float: left;
+  display: flex;
+  justify-content: center;
+  padding: 1% 0% 1% 0%;
 }
+
 
 /*========================================
 
@@ -230,7 +242,7 @@ padding: 10px 0px 0px 0px;
   text-align: center;
 }
 
-.example-image-link {
+.image-link {
   display: inline-block;
   padding: 5px;
   margin: 5px 10px;
@@ -268,6 +280,7 @@ Responsive Web Coding - 562 (Custom for Navigation)
   .logo {
     max-width: 40%;
   }
+
 }
 
 /*===========================
@@ -312,6 +325,14 @@ Responsive Web Coding - 768px by 1024px (Tablet)
   .work li {
     font-size: 1.1rem;
   }
+
+  .home-text p {
+    font-size: 1.4rem;
+    line-height: 1.9rem;
+  }
+  .fotorama {
+    width: 65%;
+  }
 }
 
 /*===========================
@@ -328,13 +349,24 @@ Responsive Web Coding - 1366px by 768px (Laptop)
     font-size: 1.7rem;
   }
   h1 {
-    font-size: 4rem;
+    font-size: 3.5rem;
   }
   .home-text {
     width: 60%;
   }
   .home-text p {
-    font-size: 1.5rem;
-    line-height: 3rem;
+    font-size: 1.3rem;
+    line-height: 2.5rem;
+  }
+
+  .education p {
+    font-size: 1.2rem;
+  }
+
+  h3 {
+    font-size: 2rem;
+  }
+  .fotorama {
+    width: 75%;
   }
 }
