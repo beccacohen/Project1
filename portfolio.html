@@ -25,32 +25,57 @@
             <a class="menu-items-name" href="portfolio.html">Portfolio</a>
         </div>
       </nav>
+      <button onclick="topFunction()" id="top" title="Go to top">Top</button>
+      <script>
+      //Get the button
+      var mybutton = document.getElementById("top");
+
+      // When the user scrolls down from the top of the document, show the button
+      window.onscroll = function() {scrollFunction()};
+
+      function scrollFunction() {
+        if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
+        }
+      }
+
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+      </script>
     </header>
+
     <main>
       <section id="portfolio">
-        <div class="portfolio">
+        <div class="portfolio underline">
+          <h2>- Portfolio -</h2>
+        </div>
 
-          <div class="underline">
-            <h2>- Portfolio -</h2>
-          </div>
+        <div class="top-row">
+          <a class="image-link" href="https://rcohen306.wixsite.com/thedisneyexplorer" target="_blank"><img src="images/explorer.png" alt="Explorer" width="250"/></a>
 
-          <div>
-            <a class="example-image-link" href="https://rcohen306.wixsite.com/thedisneyexplorer" target="_blank"><img src="images/explorer.png" alt="Explorer" width="250"/></a>
+          <a class="image-link" href="documents/finalpresentation.pdf.zip"><img src="images/castle2.jpg" alt="Castle" width="350"/></a>
 
-            <a class="example-image-link" href="documents/finalpresentation.pdf.zip"><img src="images/castle2.jpg" alt="Castle" width="350"/></a>
+          <a class="image-link" href="documents/jackandjill.zip"><img class="example-image" src="images/jj2.png" alt="Jack and Jill" width="250"/></a>
+        </div>
 
-            <a class="example-image-link" href="documents/jackandjill.zip"><img class="example-image" src="images/jj2.png" alt="Jack and Jill" width="250"/></a>
-          </div>
+        <div class="second-row">
+          <a class="image-link" href="documents/marketing.pdf.zip"><img src="images/pgh.jpg" alt="Pittsburgh Playhouse" width="250"/></a>
 
-          <div>
-            <a class="example-image-link" href="documents/marketing.pdf.zip"><img src="images/pgh.jpg" alt="Pittsburgh Playhouse" width="250"/></a>
+          <a class="image-link" href="documents/photofinal.pdf.zip"><img class="example-image" src="images/photostudio.jpg" alt="Photography Studio" width="250"/></a>
 
-            <a class="example-image-link" href="documents/photofinal.pdf.zip"><img class="example-image" src="images/photostudio.jpg" alt="Photography Studio" width="250"/></a>
-
-            <a class="example-image-link" href="documents/riverhounds.pdf.zip"><img class="example-image" src="images/riverhounds.png" alt="Riverhounds" width="250"/></a>
-          </div>
+          <a class="image-link" href="documents/riverhounds.pdf.zip"><img class="example-image" src="images/riverhounds.png" alt="Riverhounds" width="250"/></a>
         </div>
       </section>
     </main>
+
+    <footer>
+      <img src="images/logo.png" alt="Logo" title="Logo" width="60">
+      <p>Created by Rebecca Cohen</p>
+    </footer>
   </body>
 </html>
