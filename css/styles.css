@@ -357,16 +357,42 @@ Responsive Web Coding - 1366px by 768px (Laptop)
   .home-text p {
     font-size: 1.3rem;
     line-height: 2.5rem;
+    display: flex;
+    justify-content:
   }
 
   .education p {
     font-size: 1.2rem;
+    padding-right: 10%;
+    padding-top: 2%;
   }
 
   h3 {
     font-size: 2rem;
+    padding-right: 8%;
   }
   .fotorama {
     width: 75%;
+  }
+.woods {
+  padding-left: 10%;
+}
+  .twentytwo {
+    padding-right: 10%;
+  }
+
+  .pright {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+  .pleft {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .pright p {
+    padding-left: 10%;
+    padding-top: 2%;
   }
 }
